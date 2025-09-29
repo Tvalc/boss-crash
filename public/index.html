@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boss Rush - Redirect</title>
+  <meta http-equiv="refresh" content="0; url=/" />
+  <script>
+    // Fallback redirect for environments that ignore meta refresh
+    (function(){
+      var target = '/';
+      if (location.pathname !== '/' && !location.pathname.endsWith('/')) {
+        // Always send to root index which properly bootstraps the app
+        target = '/';
+      }
+      try { window.location.replace(target); } catch (_) { window.location.href = target; }
+    })();
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>Redirecting to the game... If you are not redirected automatically, <a href="/">click here</a>.</p>
+  </noscript>
+</body>
+</html>

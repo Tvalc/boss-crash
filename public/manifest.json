@@ -1,0 +1,42 @@
+{
+  "name": "Boss Rush",
+  "short_name": "BossRush",
+  "description": "A roguelike-inspired betting game where each wager is an attack against a boss",
+  "version": "1.0.0",
+  "gameId": "boss-rush-v1",
+  "category": "arcade",
+  "tags": ["roguelike", "boss", "betting", "strategy"],
+  "minBet": 0.01,
+  "maxBet": 1000,
+  "currency": "DOGE",
+  "houseEdge": 0.03,
+  "rtp": {
+    "min": 95.7,
+    "max": 97.3,
+    "average": 96.5
+  },
+  "provablyFair": true,
+  "features": [
+    "wallet-integration",
+    "provably-fair",
+    "multi-stage",
+    "cash-out",
+    "mobile-responsive"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "fullscreen",
+  "orientation": "any",
+  "theme_color": "#00ff00",
+  "background_color": "#0d0a08"
+}

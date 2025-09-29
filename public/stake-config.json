@@ -1,0 +1,53 @@
+{
+  "gameId": "boss-rush-v1",
+  "name": "Boss Rush",
+  "version": "1.0.0",
+  "type": "html5",
+  "category": "arcade",
+  "description": "Battle through 5 epic bosses in this roguelike betting adventure. Each attack is a wager - defeat bosses to multiply your winnings or cash out between battles!",
+  "thumbnail": "thumbnail.png",
+  "screenshots": [
+    "screenshot1.png",
+    "screenshot2.png", 
+    "screenshot3.png"
+  ],
+  "currencies": ["DOGE", "BTC", "ETH", "LTC", "XRP", "TRX"],
+  "defaultCurrency": "DOGE",
+  "betting": {
+    "minBet": 0.01,
+    "maxBet": 1000,
+    "houseEdge": 0.03,
+    "rtp": 96.5
+  },
+  "features": {
+    "provablyFair": true,
+    "autoplay": false,
+    "turbo": false,
+    "mobileOptimized": true,
+    "soundEffects": true,
+    "animations": true
+  },
+  "gameplayMechanics": {
+    "type": "progression",
+    "stages": 5,
+    "outcomes": ["HIT", "CRIT", "MEGA HIT", "MISS", "COUNTER"],
+    "cashOut": true,
+    "multipliers": {
+      "min": 0,
+      "max": 12.0
+    }
+  },
+  "technical": {
+    "framework": "svelte",
+    "bundler": "vite",
+    "responsive": true,
+    "offline": false,
+    "webgl": false
+  },
+  "compliance": {
+    "provablyFair": true,
+    "responsibleGambling": true,
+    "ageVerification": true,
+    "jurisdictions": ["global"]
+  }
+}

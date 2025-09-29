@@ -1,0 +1,1 @@
+stage,nonce,outcome,damage,payout_multiplier\n2,0,COUNTER,0,0\n2,1,MISS,0,0\n2,2,HIT,1,1.30\n2,3,MISS,0,0\n2,4,HIT,1,1.30\n2,5,MISS,0,0\n2,6,HIT,1,1.30\n2,7,CRIT,3,3.0\n2,8,MISS,0,0\n2,9,HIT,1,1.30
